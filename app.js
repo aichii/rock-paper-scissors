@@ -1,5 +1,5 @@
 const pickAWinner = (user, computer) => {
-  //tie
+  pickAWinner = pickAWinner.toLowerCase()
   if (user == computer){
     console.log("It's a tie!")
     return "It's a tie!"
